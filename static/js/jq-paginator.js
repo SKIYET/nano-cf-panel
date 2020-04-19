@@ -303,7 +303,7 @@ function echopage(n,per){
 
 $(document).ready(function(){
   var num=$("#domain-l").find("tr").length;
-  var per=3;
+  var per=15;
   var total = 0;
   if(num/per > parseInt(num/per)){
   total=parseInt(num/per)+1;
@@ -331,7 +331,7 @@ $(function() {
         $(document).ready(function(){
           $("#page-to").show();
           var num=$("#domain-l").find("tr").length;
-          var per=3;
+          var per=15;
           var total = 0;
           if(num/per > parseInt(num/per)){
           total=parseInt(num/per)+1;
