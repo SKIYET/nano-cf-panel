@@ -371,7 +371,7 @@ function echopage2(n,per){
 }
 function recordspages(){
   var num=$("#table_body").find("tr").length;
-  var per=3;
+  var per=15;
   var total = 0;
   if(num==0){
     total=1;
